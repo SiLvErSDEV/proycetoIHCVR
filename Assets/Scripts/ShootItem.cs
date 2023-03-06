@@ -21,7 +21,8 @@ public class ShootItem : MonoBehaviour
         Vector3 position = Camera.main.transform.position;
         // if left click
         if (Input.GetMouseButtonDown(0)) {
-            GameObject newItem = Instantiate(itemPrefab, position, Quaternion.identity);
+            // GameObject newItem = Instantiate(itemPrefab, position, Quaternion.identity);
+            GameObject newItem = Instantiate(itemPrefab, position, itemPrefab.transform.rotation);
             Rigidbody itemRB = newItem.GetComponent<Rigidbody>();
 
             Vector3 cameraLook = Camera.main.transform.TransformDirection(Vector3.forward);

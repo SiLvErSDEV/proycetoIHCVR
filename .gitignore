@@ -59,4 +59,4 @@ sysinfo.txt
 crashlytics-build.properties
 
 # some file that was too large?
-*.dae
+# *.dae
