@@ -13,7 +13,7 @@
           {
             "name": "NavMeshSettings",
             "scenes": [
-              "Assets/Oculus/Interaction/Samples/Scenes/Examples/TouchGrabExamples.unity"
+              "Assets/VR test scene.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -34,26 +34,16 @@
             "icon": null
           },
           {
-            "name": "AnimationClip",
-            "scenes": [
-              "Assets/Oculus/Interaction/Samples/Scenes/Examples/TouchGrabExamples.unity"
-            ],
-            "dependencyType": 0,
-            "icon": null
-          },
-          {
             "name": "Animator",
             "scenes": [
-              "Assets/Oculus/Interaction/Samples/Scenes/Examples/TouchGrabExamples.unity"
+              "Assets/VR test scene.unity"
             ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "AnimatorController",
-            "scenes": [
-              "Assets/Oculus/Interaction/Samples/Scenes/Examples/TouchGrabExamples.unity"
-            ],
+            "scenes": [],
             "dependencyType": 1,
             "icon": null
           },
@@ -66,15 +56,9 @@
           {
             "name": "Avatar",
             "scenes": [
-              "Assets/Oculus/Interaction/Samples/Scenes/Examples/TouchGrabExamples.unity"
+              "Assets/VR test scene.unity"
             ],
             "dependencyType": 0,
-            "icon": null
-          },
-          {
-            "name": "Motion",
-            "scenes": [],
-            "dependencyType": 1,
             "icon": null
           },
           {
@@ -102,23 +86,21 @@
           {
             "name": "AudioBehaviour",
             "scenes": [
-              "Assets/Oculus/Interaction/Samples/Scenes/Examples/TouchGrabExamples.unity"
+              "Assets/VR test scene.unity"
             ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "AudioClip",
-            "scenes": [
-              "Assets/Oculus/Interaction/Samples/Scenes/Examples/TouchGrabExamples.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "AudioListener",
             "scenes": [
-              "Assets/Oculus/Interaction/Samples/Scenes/Examples/TouchGrabExamples.unity"
+              "Assets/VR test scene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -143,17 +125,13 @@
           },
           {
             "name": "AudioSource",
-            "scenes": [
-              "Assets/Oculus/Interaction/Samples/Scenes/Examples/TouchGrabExamples.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "SampleClip",
-            "scenes": [
-              "Assets/Oculus/Interaction/Samples/Scenes/Examples/TouchGrabExamples.unity"
-            ],
+            "scenes": [],
             "dependencyType": 1,
             "icon": null
           },
@@ -183,7 +161,7 @@
           {
             "name": "Camera",
             "scenes": [
-              "Assets/Oculus/Interaction/Samples/Scenes/Examples/TouchGrabExamples.unity"
+              "Assets/VR test scene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -203,7 +181,7 @@
           {
             "name": "Cubemap",
             "scenes": [
-              "Assets/Oculus/Interaction/Samples/Scenes/Examples/TouchGrabExamples.unity"
+              "Assets/VR test scene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -223,7 +201,7 @@
           {
             "name": "EditorExtension",
             "scenes": [
-              "Assets/Oculus/Interaction/Samples/Scenes/Examples/TouchGrabExamples.unity"
+              "Assets/VR test scene.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -237,7 +215,7 @@
           {
             "name": "GameObject",
             "scenes": [
-              "Assets/Oculus/Interaction/Samples/Scenes/Examples/TouchGrabExamples.unity"
+              "Assets/VR test scene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -269,7 +247,7 @@
           {
             "name": "LevelGameManager",
             "scenes": [
-              "Assets/Oculus/Interaction/Samples/Scenes/Examples/TouchGrabExamples.unity"
+              "Assets/VR test scene.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -277,7 +255,7 @@
           {
             "name": "Light",
             "scenes": [
-              "Assets/Oculus/Interaction/Samples/Scenes/Examples/TouchGrabExamples.unity"
+              "Assets/VR test scene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -297,7 +275,7 @@
           {
             "name": "LightmapSettings",
             "scenes": [
-              "Assets/Oculus/Interaction/Samples/Scenes/Examples/TouchGrabExamples.unity"
+              "Assets/VR test scene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -317,7 +295,7 @@
           {
             "name": "Material",
             "scenes": [
-              "Assets/Oculus/Interaction/Samples/Scenes/Examples/TouchGrabExamples.unity"
+              "Assets/VR test scene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -325,7 +303,7 @@
           {
             "name": "Mesh",
             "scenes": [
-              "Assets/Oculus/Interaction/Samples/Scenes/Examples/TouchGrabExamples.unity"
+              "Assets/VR test scene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -333,7 +311,7 @@
           {
             "name": "MeshFilter",
             "scenes": [
-              "Assets/Oculus/Interaction/Samples/Scenes/Examples/TouchGrabExamples.unity"
+              "Assets/VR test scene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -341,7 +319,7 @@
           {
             "name": "MeshRenderer",
             "scenes": [
-              "Assets/Oculus/Interaction/Samples/Scenes/Examples/TouchGrabExamples.unity"
+              "Assets/VR test scene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -349,7 +327,7 @@
           {
             "name": "MonoBehaviour",
             "scenes": [
-              "Assets/Oculus/Interaction/Samples/Scenes/Examples/TouchGrabExamples.unity"
+              "Assets/VR test scene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -363,7 +341,7 @@
           {
             "name": "MonoScript",
             "scenes": [
-              "Assets/Oculus/Interaction/Samples/Scenes/Examples/TouchGrabExamples.unity"
+              "Assets/VR test scene.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -371,7 +349,7 @@
           {
             "name": "NamedObject",
             "scenes": [
-              "Assets/Oculus/Interaction/Samples/Scenes/Examples/TouchGrabExamples.unity"
+              "Assets/VR test scene.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -402,33 +380,27 @@
           },
           {
             "name": "RectTransform",
-            "scenes": [
-              "Assets/Oculus/Interaction/Samples/Scenes/Examples/TouchGrabExamples.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "ReflectionProbe",
-            "scenes": [
-              "Assets/Oculus/Interaction/Samples/Scenes/Examples/TouchGrabExamples.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "RenderSettings",
             "scenes": [
-              "Assets/Oculus/Interaction/Samples/Scenes/Examples/TouchGrabExamples.unity"
+              "Assets/VR test scene.unity"
             ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "RenderTexture",
-            "scenes": [
-              "Assets/Oculus/Interaction/Samples/Scenes/Examples/TouchGrabExamples.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
@@ -453,7 +425,7 @@
           {
             "name": "Shader",
             "scenes": [
-              "Assets/Oculus/Interaction/Samples/Scenes/Examples/TouchGrabExamples.unity"
+              "Assets/VR test scene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -467,7 +439,7 @@
           {
             "name": "SkinnedMeshRenderer",
             "scenes": [
-              "Assets/Oculus/Interaction/Samples/Scenes/Examples/TouchGrabExamples.unity"
+              "Assets/VR test scene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -480,9 +452,7 @@
           },
           {
             "name": "Sprite",
-            "scenes": [
-              "Assets/Oculus/Interaction/Samples/Scenes/Examples/TouchGrabExamples.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
@@ -542,8 +512,10 @@
           },
           {
             "name": "Transform",
-            "scenes": [],
-            "dependencyType": 1,
+            "scenes": [
+              "Assets/VR test scene.unity"
+            ],
+            "dependencyType": 0,
             "icon": null
           },
           {
@@ -834,7 +806,7 @@
           {
             "name": "BoxCollider",
             "scenes": [
-              "Assets/Oculus/Interaction/Samples/Scenes/Examples/TouchGrabExamples.unity"
+              "Assets/VR test scene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -878,7 +850,7 @@
           {
             "name": "MeshCollider",
             "scenes": [
-              "Assets/Oculus/Interaction/Samples/Scenes/Examples/TouchGrabExamples.unity"
+              "Assets/VR test scene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -892,7 +864,7 @@
           {
             "name": "Rigidbody",
             "scenes": [
-              "Assets/Oculus/Interaction/Samples/Scenes/Examples/TouchGrabExamples.unity"
+              "Assets/VR test scene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1185,7 +1157,7 @@
           {
             "name": "Font",
             "scenes": [
-              "Assets/Oculus/Interaction/Samples/Scenes/Examples/TouchGrabExamples.unity"
+              "Assets/VR test scene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1233,9 +1205,7 @@
         "dependencies": [
           {
             "name": "Canvas",
-            "scenes": [
-              "Assets/Oculus/Interaction/Samples/Scenes/Examples/TouchGrabExamples.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
@@ -1247,9 +1217,7 @@
           },
           {
             "name": "CanvasRenderer",
-            "scenes": [
-              "Assets/Oculus/Interaction/Samples/Scenes/Examples/TouchGrabExamples.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
@@ -1290,18 +1258,8 @@
         "name": "Video",
         "dependencies": [
           {
-            "name": "VideoClip",
-            "scenes": [
-              "Assets/Oculus/Interaction/Samples/Scenes/Examples/TouchGrabExamples.unity"
-            ],
-            "dependencyType": 0,
-            "icon": null
-          },
-          {
             "name": "VideoPlayer",
-            "scenes": [
-              "Assets/Oculus/Interaction/Samples/Scenes/Examples/TouchGrabExamples.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           }
