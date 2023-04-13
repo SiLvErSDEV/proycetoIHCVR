@@ -38,9 +38,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/VR test scene.unity
     guid: b62a9026cf8572940a8c17f765350694
-  - enabled: 1
+  - enabled: 0
     path: Assets/DebugHandGrabCopy.unity
     guid: 723cb0c40b8553048bfbd989fa96d9b5
+  - enabled: 1
+    path: Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets/DemoScene.unity
+    guid: 319dafa5c80f29f428dc1e0d03f04177
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: e898ca04c733ea244a99e4191824a33c, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 25392356d2a2bfb43951dc136ea7d7b5, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: d0409901b629def41864cb09c522b396, type: 2}
