@@ -52,7 +52,7 @@ public class Shatter : MonoBehaviour
             // Debug.Log(g.name);
             Rigidbody rb = g.GetComponent<Rigidbody>();
             // rb.AddExplosionForce(force, explosionPosition, explosionRadius, 0, )
-            rb.AddExplosionForce(500f, oldRockTransform.position, 100f);
+            rb.AddExplosionForce(200f, oldRockTransform.position, 100f);
         }
         
         Destroy(explosion, 3);
