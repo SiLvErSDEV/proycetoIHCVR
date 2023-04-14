@@ -55,6 +55,7 @@ public class Shatter : MonoBehaviour
             rb.AddExplosionForce(200f, oldRockTransform.position, 100f);
         }
         
-        Destroy(explosion, 3);
+        // dont put a timer on the destroy :D
+        // Destroy(explosion, 3); 
     }
 }
