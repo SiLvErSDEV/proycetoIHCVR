@@ -1139,7 +1139,7 @@ PrefabInstance:
     - target: {fileID: 4422659090696076826, guid: fd28f23af44f73f4a95e33435872ad15,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 262.1
       objectReference: {fileID: 0}
     - target: {fileID: 4422659090696076826, guid: fd28f23af44f73f4a95e33435872ad15,
         type: 3}
@@ -1149,7 +1149,7 @@ PrefabInstance:
     - target: {fileID: 4422659090696076826, guid: fd28f23af44f73f4a95e33435872ad15,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 147.05
       objectReference: {fileID: 0}
     - target: {fileID: 4422659090696076826, guid: fd28f23af44f73f4a95e33435872ad15,
         type: 3}
@@ -1484,6 +1484,16 @@ PrefabInstance:
       propertyPath: m_UseForceGrab
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6713470029137982152, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_InvalidColorGradient.key0.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6713470029137982152, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_InvalidColorGradient.m_ColorSpace
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7313654230448209575, guid: 895f6f3c2d334633b5800312285058d2,
         type: 3}
       propertyPath: m_Name
@@ -1518,6 +1528,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_UseForceGrab
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9178967662477331034, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_InvalidColorGradient.key0.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9178967662477331034, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_InvalidColorGradient.m_ColorSpace
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
