@@ -31,17 +31,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 9c2eef6125f29af44838d69c0753a98f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.941716
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9c2eef6125f29af44838d69c0753a98f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.27
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9c2eef6125f29af44838d69c0753a98f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.5843859
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9c2eef6125f29af44838d69c0753a98f,
         type: 3}
@@ -260,7 +260,7 @@ MonoBehaviour:
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 1
+  m_MovementType: 0
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1

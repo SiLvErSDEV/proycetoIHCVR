@@ -6,10 +6,10 @@ using System.Linq;
 public class SpawnPlateIfNoPlate : MonoBehaviour
 {
     // Start is called before the first frame update
-    // void Start()
-    // {
-        
-    // }
+    void Start()
+    {
+        // SpawnObjectIfNoCollision();
+    }
 
     public GameObject objectToSpawn;
     public BoxCollider colliderToCheck;
@@ -32,7 +32,8 @@ public class SpawnPlateIfNoPlate : MonoBehaviour
         if (colliders.Length == 1)
         {
             // If there are no colliders, spawn the object at the collider's position
-            Instantiate(objectToSpawn, colliderToCheck.transform.position, Quaternion.identity);
+            Instantiate(objectToSpawn, colliderToCheck.transform.position, objectToSpawn.transform.rotation);
+            // Instantiate(objectToSpawn);
         }
     }
 
