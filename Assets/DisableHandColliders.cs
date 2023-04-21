@@ -17,15 +17,20 @@ public class DisableHandColliders : MonoBehaviour
     void Start()
     {
         handColliders = GetComponentsInChildren<Collider>();
+        DisableColliders();
     }
 
-    public void DisableColliders() {
+    public void SetHoldingObject(bool isHolding) {
+        isHoldingObject = isHolding;
+    }
+
+    private void DisableColliders() {
         foreach (Collider c in handColliders) {
             c.enabled = false;
         }
     }
 
-    public void EnableColliders() {
+    private void EnableColliders() {
         foreach (Collider c in handColliders) {
             c.enabled = true;
         }
@@ -35,10 +40,20 @@ public class DisableHandColliders : MonoBehaviour
     void Update()
     {
         // if grip val is near 1, then hand is in fist
-        
         float gripVal = gripAnimationAction.action.ReadValue<float>();
+        bool inFist = gripVal > 0.9f;
         // if hand is in fist position and is not holding object, then enable colliders. otherwise disable colliders
-
+        if (inFist && !isHoldingObject) {
+            if (!collidersEnabled) {
+                EnableColliders();
+                collidersEnabled = true;
+            }
+        } else {
+            if (collidersEnabled) {
+                DisableColliders();
+                collidersEnabled = false;
+            }
+        }
 
     }
 }
