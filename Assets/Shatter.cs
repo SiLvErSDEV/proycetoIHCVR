@@ -6,6 +6,8 @@ public class Shatter : MonoBehaviour
 {
 
     private bool exploding = false;
+
+    private float velocityNeededToShatter = 4f;
     public GameObject shatteredPrefab;
     // private void OnTriggerEnter(Collider other) {
     //     Instantiate(shatteredPrefab, transform.position, transform.rotation);
@@ -14,11 +16,36 @@ public class Shatter : MonoBehaviour
 
     private void OnCollisionEnter(Collision other) {
 
-        // Debug.Log(other.relativeVelocity.magnitude);
-        // if object velocity is high enough, shatter
-        if (other.relativeVelocity.magnitude > 3) {
-            ShatterObject();
+
+        if (other.gameObject.CompareTag("HandRigidbody")) {
+            HandPreviousPosition hand = other.gameObject.GetComponent<HandPreviousPosition>();
+            Vector3 previousPosition = hand.GetPreviousPosition();
+            Vector3 velocity = (other.gameObject.transform.position - previousPosition) / Time.deltaTime;
+
+            // Debug.Log("velocity: " + velocity);
+            // // print position, prev position, and detal time
+            // Debug.Log("position: " + other.gameObject.transform.position);
+            // Debug.Log("prev position: " + previousPosition);
+            // Debug.Log("delta time: " + Time.deltaTime);
+
+
+
+            float relativeVelocity = Vector3.Dot(velocity, other.contacts[0].normal);
+            // Debug.Log("Relative velocity: " + relativeVelocity);
+            if (other.relativeVelocity.magnitude > velocityNeededToShatter) {
+                ShatterObject();
+            }
+
         }
+        else {
+
+            // if object velocity is high enough, shatter
+            if (other.relativeVelocity.magnitude > velocityNeededToShatter) {
+                ShatterObject();
+            }
+        }
+
+        // Debug.Log(other.relativeVelocity.magnitude);
 
         // also if object is hit by object with high enough velocity shatter
         // if (other.gameObject.GetComponent<Rigidbody>() != null) {

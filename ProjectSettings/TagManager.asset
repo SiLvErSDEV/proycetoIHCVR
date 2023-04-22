@@ -6,6 +6,7 @@ TagManager:
   tags:
   - left hand
   - right hand
+  - HandRigidbody
   layers:
   - Default
   - TransparentFX
