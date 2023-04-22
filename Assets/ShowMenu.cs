@@ -10,6 +10,7 @@ public class ShowMenu : MonoBehaviour
 
 
     private bool isMenuVisible = false;
+    private bool menuButtonPressed = false;
 
     private void Start() {
         menuScreen.SetActive(isMenuVisible);
@@ -18,11 +19,12 @@ public class ShowMenu : MonoBehaviour
     // call menu button pressed when the menu button is pressed
     private void Update() {
         // use the occulus menu button to open the menu
-        float menuButtonPressed = menuButton.action.ReadValue<float>();
-        Debug.Log(menuButtonPressed);
-        if (menuButtonPressed == 1) {
+        float menuButtonValue = menuButton.action.ReadValue<float>();
+        if (menuButtonValue == 1 && !menuButtonPressed) {
+            menuButtonPressed = true;
             MenuButtonPressed();
-            Debug.Log("here1");
+        } else if (menuButtonValue == 0) {
+            menuButtonPressed = false;
         }
     }
 
@@ -35,8 +37,11 @@ public class ShowMenu : MonoBehaviour
         if (isMenuVisible)
         {
             menuScreen.transform.position = Camera.main.transform.position + Camera.main.transform.forward * 2.0f;
-            // also set rotation lol that was silly
-            // menuScreen.transform.rotation = Camera.main.transform.rotation;
+            // also set rotation
+            menuScreen.transform.rotation = Camera.main.transform.rotation;
+            // but make sure the menu y axis is facing up
+            menuScreen.transform.rotation = Quaternion.Euler(menuScreen.transform.rotation.eulerAngles.x, menuScreen.transform.rotation.eulerAngles.y, 0);
+
         }
     }
 }
