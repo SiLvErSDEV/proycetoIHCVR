@@ -16,6 +16,9 @@ public class HandPreviousPosition : MonoBehaviour {
         previousPosition = currentPosition;
         currentPosition = transform.position;
         // Debug.Log("after: " + previousPosition);
+
+        // GetComponent<Rigidbody>().velocity = (currentPosition - previousPosition) / Time.deltaTime;
+        // I cant do this without another hand object with its own rigid body that is not kinematic
     }
 
     public Vector3 GetPreviousPosition() {
