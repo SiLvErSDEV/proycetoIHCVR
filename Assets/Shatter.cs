@@ -16,23 +16,30 @@ public class Shatter : MonoBehaviour
 
     private void OnCollisionEnter(Collision other) {
 
+        Debug.Log(other.gameObject.name);
+        
 
-        if (other.gameObject.CompareTag("HandRigidbody")) {
+
+        if (other.gameObject.CompareTag("right hand") || other.gameObject.CompareTag("left hand")) {
+
+            Debug.Log("collided with hand");
+
             HandPreviousPosition hand = other.gameObject.GetComponent<HandPreviousPosition>();
             Vector3 previousPosition = hand.GetPreviousPosition();
             Vector3 velocity = (other.gameObject.transform.position - previousPosition) / Time.deltaTime;
 
-            // Debug.Log("velocity: " + velocity);
-            // // print position, prev position, and detal time
+            Debug.Log("velocity: " + velocity);
             // Debug.Log("position: " + other.gameObject.transform.position);
             // Debug.Log("prev position: " + previousPosition);
             // Debug.Log("delta time: " + Time.deltaTime);
 
+            // print velocity magnitude and game object velocity magnitude
+            Debug.Log("velocity magnitude: " + velocity.magnitude);
+            Debug.Log("game object velocity magnitude: " + gameObject.GetComponent<Rigidbody>().velocity.magnitude);
 
-
-            float relativeVelocity = Vector3.Dot(velocity, other.contacts[0].normal);
-            // Debug.Log("Relative velocity: " + relativeVelocity);
-            if (other.relativeVelocity.magnitude > velocityNeededToShatter) {
+            float relativeVelocity = (velocity - gameObject.GetComponent<Rigidbody>().velocity).magnitude;
+            Debug.Log("Relative velocity: " + relativeVelocity);
+            if (relativeVelocity > velocityNeededToShatter) {
                 ShatterObject();
             }
 
