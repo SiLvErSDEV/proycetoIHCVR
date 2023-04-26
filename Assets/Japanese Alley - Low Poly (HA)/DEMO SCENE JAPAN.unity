@@ -2367,7 +2367,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.9339623, g: 0.54876626, b: 0.20705767, a: 1}
+  m_Color: {r: 0.8962264, g: 0.54911584, b: 0.24096651, a: 1}
   m_Intensity: 2
   m_Range: 8
   m_SpotAngle: 30
@@ -3382,7 +3382,7 @@ PrefabInstance:
     - target: {fileID: 8348602707727489335, guid: ae5149e5c8d8c734f90ccc2b1dde2886,
         type: 3}
       propertyPath: m_RootOrder
-      value: 143
+      value: 144
       objectReference: {fileID: 0}
     - target: {fileID: 8348602707727489335, guid: ae5149e5c8d8c734f90ccc2b1dde2886,
         type: 3}
@@ -16169,7 +16169,7 @@ PrefabInstance:
     - target: {fileID: 4989091481135059810, guid: 825df15305ad0d548b28d4316163c9f2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4989091481135059810, guid: 825df15305ad0d548b28d4316163c9f2,
         type: 3}
