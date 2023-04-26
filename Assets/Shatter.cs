@@ -13,6 +13,26 @@ public class Shatter : MonoBehaviour
     //     Instantiate(shatteredPrefab, transform.position, transform.rotation);
     //     Destroy(gameObject);
     // }
+    private AudioSource audioSource;
+    private void Start() {
+        audioSource = gameObject.AddComponent<AudioSource>();
+
+        string path = "Assets/sounds/glass_break.mp3";
+        // string path = "Assets/sounds";
+        // AudioClip soundClip = Resources.Load<AudioClip>(path);
+        // AudioClip soundClip = AudioClip.CreateFromFile(path);
+        AudioClip soundClip = AudioClip.Create(path, 1000, 2, 44100, false);
+        // AudioClip.Create("MyAudioClip", 1000, 2, 44100, false);
+        // AudioClip myAudioClip = AudioClip.Create("MyAudioClip", 1000, 2, 44100);
+        if (soundClip != null)
+        {
+            audioSource.clip = soundClip;
+        }
+        else
+        {
+            Debug.LogError("Failed to load sound file: " + path);
+        }
+    }
 
     private void OnCollisionEnter(Collision other) {
 
@@ -73,6 +93,7 @@ public class Shatter : MonoBehaviour
             return;
         }
         exploding = true;
+        audioSource.Play();
         GameObject explosion = Instantiate(shatteredPrefab, oldRockTransform.position, oldRockTransform.rotation);
         
         // Debug.Log(explosion);
