@@ -36,9 +36,7 @@ public class Shatter : MonoBehaviour
 
     private void OnCollisionEnter(Collision other) {
 
-        Debug.Log(other.gameObject.name);
-        
-
+        Debug.Log("collision on " + other.gameObject.name);
 
         if (other.gameObject.CompareTag("right hand") || other.gameObject.CompareTag("left hand")) {
 
@@ -92,8 +90,17 @@ public class Shatter : MonoBehaviour
             Debug.Log("tried to explode more than once");
             return;
         }
+
         exploding = true;
-        audioSource.Play();
+
+        // audioSource.Play();
+        AudioSource sound = GameObject.Find("SoundHandler").GetComponent<AudioSource>();
+        // Debug.Log("aksdgha;sdgkjhasldjkhadgjkahsdfkjasdhfljk");
+        // Debug.Log(sound);
+        // Debug.Log(sound.clip);
+        // Debug.Log(sound.clip.name);
+        sound.Play();
+
         GameObject explosion = Instantiate(shatteredPrefab, oldRockTransform.position, oldRockTransform.rotation);
         
         // Debug.Log(explosion);
