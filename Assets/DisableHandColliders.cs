@@ -26,6 +26,10 @@ public class DisableHandColliders : MonoBehaviour
 
     private void DisableColliders() {
         foreach (Collider c in handColliders) {
+            // dont disable the direct interactor collider
+            if (c.gameObject.name == "Direct Interactor") {
+                continue;
+            }
             c.enabled = false;
         }
     }
