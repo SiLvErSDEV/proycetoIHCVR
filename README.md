@@ -5,16 +5,16 @@
 
 ### Members: Kabir Batra, Myky Huynh, Nick Gorki
 
+## Abstract:
+
+The purpose of this project report is to outline the development of a virtual reality (VR) game that aims to recreate the experience of a rage room. The game allows users to destroy objects in a simulated environment, providing a convenient and accessible outlet for managing stress and negative emotions. This report provides an overview of the game's key features, development process, technical implementation, art and sound design, marketing and distribution plans, as well as the results and achievements obtained.
+
 ## In Game Screenshots:
 ![japanese backalley](Screenshots/OculusScreenshot1697083686.jpeg)
 ![japanese backalley](Screenshots/OculusScreenshot1697083764.jpeg)
 ![japanese backalley](Screenshots/OculusScreenshot1697083855.jpeg)
 ![japanese backalley](Screenshots/OculusScreenshot1697083900.jpeg)
 ![japanese backalley](Screenshots/OculusScreenshot1697083934.jpeg)
-
-## Abstract:
-
-The purpose of this project report is to outline the development of a virtual reality (VR) game that aims to recreate the experience of a rage room. The game allows users to destroy objects in a simulated environment, providing a convenient and accessible outlet for managing stress and negative emotions. This report provides an overview of the game's key features, development process, technical implementation, art and sound design, marketing and distribution plans, as well as the results and achievements obtained.
 
 ## Introduction:
 
