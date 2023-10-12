@@ -5,6 +5,13 @@
 
 ### Members: Kabir Batra, Myky Huynh, Nick Gorki
 
+## In Game Screenshots:
+![japanese backalley](Screenshots/OculusScreenshot1697083686.jpeg)
+![japanese backalley](Screenshots/OculusScreenshot1697083764.jpeg)
+![japanese backalley](Screenshots/OculusScreenshot1697083855.jpeg)
+![japanese backalley](Screenshots/OculusScreenshot1697083900.jpeg)
+![japanese backalley](Screenshots/OculusScreenshot1697083934.jpeg)
+
 ## Abstract:
 
 The purpose of this project report is to outline the development of a virtual reality (VR) game that aims to recreate the experience of a rage room. The game allows users to destroy objects in a simulated environment, providing a convenient and accessible outlet for managing stress and negative emotions. This report provides an overview of the game's key features, development process, technical implementation, art and sound design, marketing and distribution plans, as well as the results and achievements obtained.
@@ -19,13 +26,13 @@ For our game, we have chosen a Japanese back alley theme. The destructible objec
 
 Here are some of our initial design inspirations:
 
-![japanese backalley](https://cdnb.artstation.com/p/assets/images/images/017/553/457/large/maarten-hof-backalley-mainshot.jpg?1556466110 "image_tooltip")
+![japanese backalley](https://cdnb.artstation.com/p/assets/images/images/017/553/457/large/maarten-hof-backalley-mainshot.jpg?1556466110)
 
 
 From: Maarten Hof [https://maartenhof.artstation.com/projects/dOGYNK](https://maartenhof.artstation.com/projects/dOGYNK)
 
 
-![people smashing computers](https://media.cnn.com/api/v1/images/stellar/prod/190531170518-01-rage-rooms-scsmash5.jpg?q=w_4032,h_3024,x_0,y_0,c_fill "image_tooltip")
+![people smashing computers](https://media.cnn.com/api/v1/images/stellar/prod/190531170518-01-rage-rooms-scsmash5.jpg?q=w_4032,h_3024,x_0,y_0,c_fill)
 
 
 From: CNN [https://www.cnn.com/videos/travel/2019/06/03/rage-rooms-smash-rooms-travel-orig.cnn](https://www.cnn.com/videos/travel/2019/06/03/rage-rooms-smash-rooms-travel-orig.cnn)
