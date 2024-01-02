@@ -1,20 +1,26 @@
 
-# CS490 VR Final Project Report
-
-### Project: Rage Room in VR
+# RageRoomVR Project Report
 
 ### Members: Kabir Batra, Myky Huynh, Nick Gorki
 
 ## Abstract:
 
-The purpose of this project report is to outline the development of a virtual reality (VR) game that aims to recreate the experience of a rage room. The game allows users to destroy objects in a simulated environment, providing a convenient and accessible outlet for managing stress and negative emotions. This report provides an overview of the game's key features, development process, technical implementation, art and sound design, marketing and distribution plans, as well as the results and achievements obtained.
+The purpose of this project report is to outline the development of a VR (virtual reality) game that aims to recreate the experience of a rage room. The game allows users to destroy objects in a simulated environment, providing a convenient and accessible outlet for managing stress and negative emotions. This report provides an overview of the game's key features, development process, technical implementation, art and sound design, marketing and distribution plans, as well as the results and achievements obtained.
 
-## In Game Screenshots:
-![japanese backalley](Screenshots/OculusScreenshot1697083686.jpeg)
+## In-App Screenshots:
+<div float="left">
+    <img src="Screenshots/OculusScreenshot1697083686.jpeg" width="45%">
+    <img src="Screenshots/OculusScreenshot1697083764.jpeg" width="45%">
+    <img src="Screenshots/OculusScreenshot1697083855.jpeg" width="45%">
+    <img src="Screenshots/OculusScreenshot1697083900.jpeg" width="45%">
+    <img src="Screenshots/OculusScreenshot1697083934.jpeg" width="45%">
+</div>
+
+<!-- ![japanese backalley](Screenshots/OculusScreenshot1697083686.jpeg)
 ![japanese backalley](Screenshots/OculusScreenshot1697083764.jpeg)
 ![japanese backalley](Screenshots/OculusScreenshot1697083855.jpeg)
 ![japanese backalley](Screenshots/OculusScreenshot1697083900.jpeg)
-![japanese backalley](Screenshots/OculusScreenshot1697083934.jpeg)
+![japanese backalley](Screenshots/OculusScreenshot1697083934.jpeg) -->
 
 ## Introduction:
 
